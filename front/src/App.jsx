@@ -1,10 +1,12 @@
 import React from 'react'
+
+import PaypalButton from './components/paypalButton/PaypalButton'
 function App() {
 
   return (
     <>
       <div>
-        <h1>Hello Word!</h1>
+      <PaypalButton totalValue={'1'} invoice={'cardiólogo'} />
       </div>
     </>
   )
