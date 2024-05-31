@@ -19,8 +19,8 @@ const createOrder = (data, actions) => {
 // esto podría ir al backend; captura el pago
 const onApprove = async (data, actions) => {
   const order = await actions.order.capture();
-  console.log("order:", order); // esto entrega información sobre lo que se pago
-  console.log("data:", data); 
+  console.log("información sobre la order:", order); // esto entrega información sobre lo que se pago
+  //console.log("data:", data); 
 }
 
   return (
